@@ -6,10 +6,12 @@ public class move : MonoBehaviour
 {
     private float speed = 0.05f; /*キャラの速度*/
 
+    private SpriteRenderer renderer;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        renderer = GetComponent<SpriteRenderer>(); //
     }
 
     // Update is called once per frame
@@ -28,10 +30,12 @@ public class move : MonoBehaviour
         else if (Input.GetKey("up"))//上矢印キーを押すと
         {
             position.y += speed;
+            renderer.flipX = false; //前向いているときは
         }
         else if (Input.GetKey("down"))//下矢印キーを押すと
         {
             position.y -= speed;
+            renderer.flipX = true; //
         }
 
         transform.position = position;
