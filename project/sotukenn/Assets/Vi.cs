@@ -2,12 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class move : MonoBehaviour
+public class Vi : MonoBehaviour
 {
     private float speed = 0.05f; /*キャラの速度*/
 
     private SpriteRenderer renderer;
-    private Sprite sprite;
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +32,7 @@ public class move : MonoBehaviour
         else if (Input.GetKey("up"))//上矢印キーを押すと
         {
             position.y += speed;
-            renderer.flipY = false;
+            renderer.flipX = true;
         }
         else if (Input.GetKey("down"))//下矢印キーを押すと
         {
