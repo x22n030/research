@@ -15,7 +15,7 @@ C:/work/x22n087/research/project/sotukenn
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50211
+50118
 Successfully changed project path to: C:/work/x22n087/research/project/sotukenn
 C:/work/x22n087/research/project/sotukenn
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/work/x22n087/research/project/sotukenn
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2616] Host "[IP] 192.168.26.1 [Port] 0 [Flags] 2 [Guid] 1544085375 [EditorId] 1544085375 [Version] 1048832 [Id] WindowsEditor(7,PC5201N005) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9632] Host "[IP] 192.168.26.1 [Port] 0 [Flags] 2 [Guid] 4067610545 [EditorId] 4067610545 [Version] 1048832 [Id] WindowsEditor(7,PC5201N005) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2616] Host "[IP] 192.168.26.1 [Port] 0 [Flags] 2 [Guid] 1544085375 [EditorId] 1544085375 [Version] 1048832 [Id] WindowsEditor(7,PC5201N005) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9632] Host "[IP] 192.168.26.1 [Port] 0 [Flags] 2 [Guid] 4067610545 [EditorId] 4067610545 [Version] 1048832 [Id] WindowsEditor(7,PC5201N005) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 119.17 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 116.34 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -67,92 +67,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006214 seconds.
+Registered in 0.006316 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 168.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 119.03 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.122 seconds
+- Completed reload, in  0.900 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1123ms)
-		BeginReloadAssembly (110ms)
+	ReloadAssembly (901ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (868ms)
-			LoadAssemblies (108ms)
+		EndReloadAssembly (649ms)
+			LoadAssemblies (114ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
+			SetupTypeCache (162ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (510ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (374ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (169ms)
+				RefreshPlugins (119ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (244ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011879 seconds.
+Registered in 0.009884 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\work\x22n087\research\project\sotukenn\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\work\x22n087\research\project\sotukenn\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 168.16 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 135.70 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.011 seconds
+- Completed reload, in  1.703 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2012ms)
-		BeginReloadAssembly (256ms)
+	ReloadAssembly (1704ms)
+		BeginReloadAssembly (165ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1570ms)
-			LoadAssemblies (242ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1385ms)
+			LoadAssemblies (149ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (497ms)
+			SetupTypeCache (410ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (95ms)
-			SetupLoadedEditorAssemblies (751ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (664ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (168ms)
-				BeforeProcessingInitializeOnLoad (151ms)
-				ProcessInitializeOnLoadAttributes (359ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.28 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3732 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (56.5 KB). Loaded Objects now: 4191.
+Unloading 35 unused Assets / (56.5 KB). Loaded Objects now: 4192.
 Memory consumption went from 142.6 MB to 142.5 MB.
-Total: 4.169400 ms (FindLiveObjects: 0.404200 ms CreateObjectMapping: 0.438700 ms MarkObjects: 3.218000 ms  DeleteObjects: 0.106700 ms)
+Total: 5.413300 ms (FindLiveObjects: 0.391600 ms CreateObjectMapping: 0.500100 ms MarkObjects: 4.384100 ms  DeleteObjects: 0.135800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,241 +167,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2004.265016 seconds.
-  path: Assets/school_basic_166.prefab
-  artifactKey: Guid(cb0ca4a5dc08d584c8b4cc84872438b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/school_basic_166.prefab using Guid(cb0ca4a5dc08d584c8b4cc84872438b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec85b721470f752336972661f21f4fa2') in 0.237309 seconds 
+  Time since last request: 1362.148969 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.013938 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 197.527169 seconds.
-  path: Assets/school_basic_133.prefab
-  artifactKey: Guid(a15db93f911140d4da0700ea96e55181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/school_basic_133.prefab using Guid(a15db93f911140d4da0700ea96e55181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93ed806b2434e52ee17b11661cceb28') in 0.056757 seconds 
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c23e514d24f6b65fe96946cd87fc526') in 0.006864 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 420.284298 seconds.
-  path: Assets/school_basic_133.prefab
-  artifactKey: Guid(a15db93f911140d4da0700ea96e55181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/school_basic_133.prefab using Guid(a15db93f911140d4da0700ea96e55181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd42e2d66305d5d1ec5505dd4e75efa6') in 0.037073 seconds 
+  Time since last request: 17.459680 seconds.
+  path: Assets/床一列.prefab
+  artifactKey: Guid(5bcabaab0270ec64ea68ccf20d77b661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/床一列.prefab using Guid(5bcabaab0270ec64ea68ccf20d77b661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d2ba46a0f331e8078d83bb7a20f788') in 0.215592 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 330.581797 seconds.
-  path: Assets/Mono School/Resources/モニタ.prefab
-  artifactKey: Guid(90aceecbc39da9343938d3b1fed75f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/モニタ.prefab using Guid(90aceecbc39da9343938d3b1fed75f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ff3392255f4cd9e0acb45361894c71') in 0.034327 seconds 
+  Time since last request: 956.189344 seconds.
+  path: Assets/トイレ個室.prefab
+  artifactKey: Guid(30daf0c414bd13b4a947eb7d90afa462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/トイレ個室.prefab using Guid(30daf0c414bd13b4a947eb7d90afa462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adca5e430ffeeeb531423900ed3abfe') in 0.047600 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.776149 seconds.
-  path: Assets/Mono School/Resources/モニタ.prefab
-  artifactKey: Guid(90aceecbc39da9343938d3b1fed75f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/モニタ.prefab using Guid(90aceecbc39da9343938d3b1fed75f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ebe67f077d3f8e136bbc8c1352cbca') in 0.022572 seconds 
+  Time since last request: 571.901014 seconds.
+  path: Assets/トイレ壁.prefab
+  artifactKey: Guid(4063784c23bfa71448f0883b01fc1171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/トイレ壁.prefab using Guid(4063784c23bfa71448f0883b01fc1171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53aff4bfc5b5405af53e247f230d10c') in 0.034269 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.730329 seconds.
-  path: Assets/Mono School/Resources/モニタ 1.prefab
-  artifactKey: Guid(cc6572213ca5b744492370d3ba4e56d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/モニタ 1.prefab using Guid(cc6572213ca5b744492370d3ba4e56d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccb553dadc6ec1c5b47577ebeb80a10') in 0.045628 seconds 
+  Time since last request: 308.034883 seconds.
+  path: Assets/school_basic_39.prefab
+  artifactKey: Guid(49194dab91a3a274fa49e1c1f2967823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school_basic_39.prefab using Guid(49194dab91a3a274fa49e1c1f2967823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ede27349ef8ac96ceb38db76eaaef5') in 0.031474 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.894292 seconds.
-  path: Assets/Mono School/Resources/モニタ.prefab
-  artifactKey: Guid(cc6572213ca5b744492370d3ba4e56d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/モニタ.prefab using Guid(cc6572213ca5b744492370d3ba4e56d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4f0b0c806cfed8959af2dd3747c39f') in 0.018730 seconds 
+  Time since last request: 65.737082 seconds.
+  path: Assets/トイレ壁.prefab
+  artifactKey: Guid(4063784c23bfa71448f0883b01fc1171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/トイレ壁.prefab using Guid(4063784c23bfa71448f0883b01fc1171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0866d280958eb57252340193472185') in 0.035171 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.878784 seconds.
-  path: Assets/Mono School/Resources/Prefab
-  artifactKey: Guid(8d17a8091f349584b89fa72362b6c7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab using Guid(8d17a8091f349584b89fa72362b6c7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7788f9ce4e6150fbb677aa3d8482591d') in 0.013652 seconds 
+  Time since last request: 2.457452 seconds.
+  path: Assets/トイレ壁.prefab
+  artifactKey: Guid(4063784c23bfa71448f0883b01fc1171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/トイレ壁.prefab using Guid(4063784c23bfa71448f0883b01fc1171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef2bc4a52b4c0acab9fac447babaa21') in 0.032729 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 236.885463 seconds.
-  path: Assets/Mono School/Resources/Prefab/机真ん中.prefab
-  artifactKey: Guid(3129a31f77d359544a7ff6c0ac273351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机真ん中.prefab using Guid(3129a31f77d359544a7ff6c0ac273351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451c52d1ae83749fa4c14fc5a860ffa5') in 0.034615 seconds 
+  Time since last request: 2.113690 seconds.
+  path: Assets/トイレ壁.prefab
+  artifactKey: Guid(4063784c23bfa71448f0883b01fc1171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/トイレ壁.prefab using Guid(4063784c23bfa71448f0883b01fc1171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f71143baaf054982ef05f36e145a9f') in 0.033059 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.115173 seconds.
-  path: Assets/Mono School/Resources/Prefab/椅子.prefab
-  artifactKey: Guid(4ea7d77f17458f046a8099534142467c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/椅子.prefab using Guid(4ea7d77f17458f046a8099534142467c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9e1995f5dbd43eb2f1290c1f3be49a') in 0.030038 seconds 
+  Time since last request: 5.968716 seconds.
+  path: Assets/トイレ壁 1.prefab
+  artifactKey: Guid(cac3e0c34266d724d8356f469d8fc55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/トイレ壁 1.prefab using Guid(cac3e0c34266d724d8356f469d8fc55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e81c1aac37c9758bb270c08ec8dd7e') in 0.040401 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.952948 seconds.
-  path: Assets/Mono School/Resources/Prefab/school_basic_133.prefab
-  artifactKey: Guid(2eb3fce66d27dbb408c66bc97c1d615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/school_basic_133.prefab using Guid(2eb3fce66d27dbb408c66bc97c1d615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bf5bcf7d45f38b34fbf54d5924dd4e') in 0.030554 seconds 
+  Time since last request: 0.000160 seconds.
+  path: Assets/トイレ壁.prefab
+  artifactKey: Guid(4063784c23bfa71448f0883b01fc1171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/トイレ壁.prefab using Guid(4063784c23bfa71448f0883b01fc1171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b557df3eb7f06268f34c225f4ea6a75d') in 0.023985 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.908540 seconds.
-  path: Assets/Mono School/Resources/Prefab/PC.prefab
-  artifactKey: Guid(2eb3fce66d27dbb408c66bc97c1d615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/PC.prefab using Guid(2eb3fce66d27dbb408c66bc97c1d615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23fe4a555b5e469652579afa8067edc') in 0.032328 seconds 
+  Time since last request: 15.596196 seconds.
+  path: Assets/トイレ壁 3枚.prefab
+  artifactKey: Guid(cac3e0c34266d724d8356f469d8fc55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/トイレ壁 3枚.prefab using Guid(cac3e0c34266d724d8356f469d8fc55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a06c305ef4b573a065720e87d73875d') in 0.028757 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 168.699166 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361508e4215ec32fa60d1e956d3fe920') in 0.047201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.147119 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdf7235276b2586820e9a166fd6ad21') in 0.032880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.781379 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf41849c9459898984e7c775fc450e56') in 0.032056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.369108 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ec1cb4ec3897f5b314543acd3c48a3') in 0.033521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.613133 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b157bbe2cbe70530decd6736feb2a67e') in 0.031941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.991372 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fe94a8cdaafd681e1d8c40b00d00f8') in 0.044556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.960507 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9010b38701d86794f75f9d511e2559a7') in 0.031652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.818524 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdc3a23b6f3e249a884c8f36f2248c2') in 0.035448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.567380 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af6d4eac867694a22d70ff00b953d82') in 0.032800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.204631 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd1c771c0cdb549348b754b2c15376c') in 0.030353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 58.714848 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a79b51579286b56628e1c01b0617f50') in 0.036061 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.388961 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccce30319de09bdf71d4847fa8516c6') in 0.032252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.776403 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9975fcc4d1dccf75c533a80aec2d574') in 0.034318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 55.390600 seconds.
-  path: Assets/school_basic_133.prefab
-  artifactKey: Guid(a15db93f911140d4da0700ea96e55181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/school_basic_133.prefab using Guid(a15db93f911140d4da0700ea96e55181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9e13fe23c2823fd97015334e313a64') in 0.017788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.350257 seconds.
-  path: Assets/本棚.prefab
-  artifactKey: Guid(9199cb90ceb40db44bafa9631ae21cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/本棚.prefab using Guid(9199cb90ceb40db44bafa9631ae21cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bedf5700b6eadad271f245d5cf0f95d') in 0.029050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.970341 seconds.
-  path: Assets/Mono School
-  artifactKey: Guid(6f857f9e94e67ce4c9712aa7216ece32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School using Guid(6f857f9e94e67ce4c9712aa7216ece32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf56b723e031432749101a1f35208d42') in 0.015683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1209.790924 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f703efe2f281f5c91d3a9f9f458248') in 0.038302 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Mono School/Resources/Prefab/椅子.prefab
-  artifactKey: Guid(4ea7d77f17458f046a8099534142467c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/椅子.prefab using Guid(4ea7d77f17458f046a8099534142467c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec06c914a5d4ca4cf468cad2f9ece2fd') in 0.036324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.891059 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1510ffe5ae97cef4dd681b2d5e97df1e') in 0.023620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Mono School/Resources/Prefab/椅子.prefab
-  artifactKey: Guid(4ea7d77f17458f046a8099534142467c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/椅子.prefab using Guid(4ea7d77f17458f046a8099534142467c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d84a0f5cda2d095c0e60c31ff29262') in 0.028160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.437412 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9127cf846180f0f66af28993f30a4f') in 0.040525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Mono School/Resources/Prefab/机真ん中.prefab
-  artifactKey: Guid(3129a31f77d359544a7ff6c0ac273351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机真ん中.prefab using Guid(3129a31f77d359544a7ff6c0ac273351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca42444ffdc33ff5620d799ab151850') in 0.033974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.188350 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b30f51341e59d9a51976ea6908aaca') in 0.031934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Mono School/Resources/Prefab/机真ん中.prefab
-  artifactKey: Guid(3129a31f77d359544a7ff6c0ac273351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机真ん中.prefab using Guid(3129a31f77d359544a7ff6c0ac273351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae128aa0a770fd408ee0f83d4d2c91c') in 0.030651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.803871 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75be298364befc599efed880bc8e3f7a') in 0.024304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Mono School/Resources/Prefab/机真ん中.prefab
-  artifactKey: Guid(3129a31f77d359544a7ff6c0ac273351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机真ん中.prefab using Guid(3129a31f77d359544a7ff6c0ac273351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa134a390068e8fe42548ccf6f6c9463') in 0.028834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.525469 seconds.
-  path: Assets/Mono School/Resources/Prefab/机セット.prefab
-  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eff674d67acb5a529f6bf8c9a5a5f23') in 0.030376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Mono School/Resources/Prefab/机真ん中.prefab
-  artifactKey: Guid(3129a31f77d359544a7ff6c0ac273351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mono School/Resources/Prefab/机真ん中.prefab using Guid(3129a31f77d359544a7ff6c0ac273351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3734fa3c744366b7359fe481af0ba42a') in 0.020877 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/トイレ壁.prefab
+  artifactKey: Guid(4063784c23bfa71448f0883b01fc1171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/トイレ壁.prefab using Guid(4063784c23bfa71448f0883b01fc1171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7715a594d77725994c0ddfc1c32567d') in 0.024942 seconds 
