@@ -3,7 +3,7 @@ guid: 223eea1cbd33aa34ba0ccb0dfca6b7f7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -106,6 +107,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -630,30 +643,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      student3_shirt_20: -1168450744
-      student3_shirt_4: -671625320
-      student3_shirt_15: -242408392
-      student3_shirt_7: 1396425091
-      student3_shirt_17: 447683848
-      student3_shirt_5: -1386720218
-      student3_shirt_9: 1538381858
-      student3_shirt_10: -1577891709
-      student3_shirt_6: -676438123
-      student3_shirt_12: 578804012
-      student3_shirt_8: -635345439
-      student3_shirt_21: -1542822696
-      student3_shirt_16: 774950916
-      student3_shirt_1: -126517814
-      student3_shirt_2: 1932074585
-      student3_shirt_3: 1408746347
-      student3_shirt_14: -946996561
-      student3_shirt_11: -1767911938
-      student3_shirt_19: -351751073
       student3_shirt_0: -504381920
-      student3_shirt_18: 336189630
+      student3_shirt_1: -126517814
+      student3_shirt_10: -1577891709
+      student3_shirt_11: -1767911938
+      student3_shirt_12: 578804012
       student3_shirt_13: 2078204450
-      student3_shirt_23: -709479243
+      student3_shirt_14: -946996561
+      student3_shirt_15: -242408392
+      student3_shirt_16: 774950916
+      student3_shirt_17: 447683848
+      student3_shirt_18: 336189630
+      student3_shirt_19: -351751073
+      student3_shirt_2: 1932074585
+      student3_shirt_20: -1168450744
+      student3_shirt_21: -1542822696
       student3_shirt_22: -1789135553
+      student3_shirt_23: -709479243
+      student3_shirt_3: 1408746347
+      student3_shirt_4: -671625320
+      student3_shirt_5: -1386720218
+      student3_shirt_6: -676438123
+      student3_shirt_7: 1396425091
+      student3_shirt_8: -635345439
+      student3_shirt_9: 1538381858
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
