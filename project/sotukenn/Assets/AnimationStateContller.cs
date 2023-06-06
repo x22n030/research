@@ -33,7 +33,7 @@ public class AnimationStateContller : MonoBehaviour
     
         //キー入力が続きている場合は、入力から生成したVestor２を渡す
         //入力がなければnull
-        setStateToAnimator(vector: vector != Vector2.zero ? vector : (Vector2?)null);
+        setStateToAnimator(vector: vector != Vector2.zero? vector : (Vector2?)null);
 
     }
     //Animatorに状態をセットする
@@ -48,7 +48,7 @@ public class AnimationStateContller : MonoBehaviour
         Debug.Log(vector.Value);
         this.animator.speed = 1.0f;
         this.animator.SetFloat("x", vector.Value.x);
-        this.animator.SetFloat("x", vector.Value.x);
+        this.animator.SetFloat("y", vector.Value.y);
     }
     //特定のキーの入力があればキーに合わせたVector2インスタンスを返す
     //なければnullを返す
