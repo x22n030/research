@@ -23,6 +23,7 @@ public class AreaExit : MonoBehaviour
             if (waitToLoad <= 0)
             {
                 shouldLoadAfterFade = false;
+                shouldLoadAfterFade = false;
                 SceneManager.LoadScene(areaToLoad);
             }
         }
@@ -38,4 +39,4 @@ public class AreaExit : MonoBehaviour
             PlayerController.instance.areaTransitionName = areaTransitionName;
         }
     }
-}66667
+}
