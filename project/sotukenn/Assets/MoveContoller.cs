@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveContoller : MonoBehaviour
 {
     [SerializeField]
-    float SPEED = 1.0f;
+    float SPEED = 100.0f;
     private Rigidbody2D rigidBody;
     private Vector2 inputAxis;
 

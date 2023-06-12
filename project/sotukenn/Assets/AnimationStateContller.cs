@@ -46,7 +46,7 @@ public class AnimationStateContller : MonoBehaviour
         }
 
         Debug.Log(vector.Value);
-        this.animator.speed = 1.0f;
+        this.animator.speed = 2.0f;
         this.animator.SetFloat("x", vector.Value.x);
         this.animator.SetFloat("y", vector.Value.y);
     }
