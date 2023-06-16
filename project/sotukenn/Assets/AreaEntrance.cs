@@ -1,1 +1,0 @@
-        UIFade.instance.FadeFromBlack();
