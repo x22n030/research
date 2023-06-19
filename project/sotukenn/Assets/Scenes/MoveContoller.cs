@@ -28,6 +28,7 @@ public class MoveContoller : MonoBehaviour
         inputAxis.y = Input.GetAxis("Vertical");
     }
 
+  
 
 
     private void FixedUpdate()
