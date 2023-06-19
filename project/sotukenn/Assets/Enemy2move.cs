@@ -26,7 +26,7 @@ public class Enemy2move : MonoBehaviour
         float x = targetPos.x;
         float y = 0;
         Vector2 direction = new Vector2(
-            x - transform.position.x, y).normalized;
+            x - transform.position. x , y).normalized;
         rb2d.velocity = direction * 2;
     }
 }
