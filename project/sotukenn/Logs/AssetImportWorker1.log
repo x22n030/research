@@ -207,3 +207,81 @@ Received Import Request.
   path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8026e6bb85ace54affd7e38f3dc7d2a') in 0.043422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3984.026225 seconds.
+  path: Assets/4tairu 2.prefab
+  artifactKey: Guid(e8cbd52b884c3424eabe081ea88ea0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4tairu 2.prefab using Guid(e8cbd52b884c3424eabe081ea88ea0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298b4b2f249067b4f56d9405340a6076') in 0.458151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/トイレ個室.prefab
+  artifactKey: Guid(30daf0c414bd13b4a947eb7d90afa462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/トイレ個室.prefab using Guid(30daf0c414bd13b4a947eb7d90afa462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e9001dfa9c4c0f3c12617437132de1') in 0.050249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/school_basic_0.prefab
+  artifactKey: Guid(fd5e03516eb43c041b553b729cae515e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school_basic_0.prefab using Guid(fd5e03516eb43c041b553b729cae515e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276ebacab114599c5c7be3f0302144e3') in 0.046053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/横向き椅子.prefab
+  artifactKey: Guid(ce791bac0bdde1643b67765d564b3a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/横向き椅子.prefab using Guid(ce791bac0bdde1643b67765d564b3a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ddf148e00879729c492cd7f9e42c7c') in 0.035861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/机.prefab
+  artifactKey: Guid(d7d9d0805c3d0fd488f6bf694981a256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/机.prefab using Guid(d7d9d0805c3d0fd488f6bf694981a256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd417e851198dd66d720f594c10d0eb1') in 0.075423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/棚.prefab
+  artifactKey: Guid(bd7d6930eaaa47f479a0395f71c8e0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/棚.prefab using Guid(bd7d6930eaaa47f479a0395f71c8e0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824f4d9fdc3f0f09a1a119f5bc4fafd6') in 0.047485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/school_basic_166.prefab
+  artifactKey: Guid(382c90877856bf649bd3b49029c966c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school_basic_166.prefab using Guid(382c90877856bf649bd3b49029c966c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d76ad238db1df27799e6274ee0b8903') in 0.046543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/トイレ壁 3枚.prefab
+  artifactKey: Guid(cac3e0c34266d724d8356f469d8fc55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/トイレ壁 3枚.prefab using Guid(cac3e0c34266d724d8356f469d8fc55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749d61759a038354748f05e51c1bd304') in 0.038238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/トイレ壁.prefab
+  artifactKey: Guid(4063784c23bfa71448f0883b01fc1171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/トイレ壁.prefab using Guid(4063784c23bfa71448f0883b01fc1171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc9de55583192126e077a619a61bfce') in 0.076783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/横向き机.prefab
+  artifactKey: Guid(4fd6266e351fdd8419a09cab3a4cb6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/横向き机.prefab using Guid(4fd6266e351fdd8419a09cab3a4cb6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6536f5bc76cc9e9bc91b159ee7e89ac9') in 0.061034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/後ろ向き椅子.prefab
+  artifactKey: Guid(a82d3f0f7cf5e874ab4f5b14dddbae84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/後ろ向き椅子.prefab using Guid(a82d3f0f7cf5e874ab4f5b14dddbae84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f63df77ee46587fed3a9b50b540649') in 0.049660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/school_basic_39 (3).prefab
+  artifactKey: Guid(09c20d962b029cd47adbff725513b449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school_basic_39 (3).prefab using Guid(09c20d962b029cd47adbff725513b449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60860527da1c6488d73451a60413effb') in 0.047198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/KABE .prefab
+  artifactKey: Guid(fbdf12e3a4b43b84da9ab492a02bdc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KABE .prefab using Guid(fbdf12e3a4b43b84da9ab492a02bdc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3140c83793ba0755c5b5c88f9f6eefd') in 0.036648 seconds 
