@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class door : MonoBehaviour
+public class door2 : MonoBehaviour
 {
-
-    void OnCollisionEnter2D(Collision2D collision2D)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision2D.gameObject.tag == "Player")
+        if (other.CompareTag("Player"))
         {
             SceneManager.LoadScene("map");
         }
