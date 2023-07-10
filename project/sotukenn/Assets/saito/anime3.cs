@@ -1,13 +1,15 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class door : MonoBehaviour
+public class anime3 : MonoBehaviour
 {
     void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene("map");
+            SceneManager.LoadScene("205");
         }
     }
 }
