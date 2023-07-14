@@ -3,7 +3,7 @@ guid: fa410cdd93337704a98e872bd9f94d82
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -112,6 +113,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -124,7 +137,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -630,29 +643,29 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      student8_shirt_22: 1039497262
-      student8_shirt_18: -79762361
-      student8_shirt_23: 1917421846
-      student8_shirt_6: 984886429
-      student8_shirt_13: 1709136621
-      student8_shirt_4: -1351280817
-      student8_shirt_8: 1902822848
-      student8_shirt_16: -980466870
-      student8_shirt_20: -967182167
-      student8_shirt_17: -931993686
       student8_shirt_0: 577377720
-      student8_shirt_19: 1430486883
       student8_shirt_1: 1355352713
-      student8_shirt_15: 705165036
-      student8_shirt_21: -1562959788
       student8_shirt_10: 1179758579
       student8_shirt_11: -640472703
-      student8_shirt_14: -581711940
       student8_shirt_12: 152620263
+      student8_shirt_13: 1709136621
+      student8_shirt_14: -581711940
+      student8_shirt_15: 705165036
+      student8_shirt_16: -980466870
+      student8_shirt_17: -931993686
+      student8_shirt_18: -79762361
+      student8_shirt_19: 1430486883
       student8_shirt_2: 552476178
-      student8_shirt_7: 284152906
+      student8_shirt_20: -967182167
+      student8_shirt_21: -1562959788
+      student8_shirt_22: 1039497262
+      student8_shirt_23: 1917421846
       student8_shirt_3: -105434429
+      student8_shirt_4: -1351280817
       student8_shirt_5: -1757291419
+      student8_shirt_6: 984886429
+      student8_shirt_7: 284152906
+      student8_shirt_8: 1902822848
       student8_shirt_9: 236759305
   spritePackingTag: 
   pSDRemoveMatte: 0
