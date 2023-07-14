@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/1kai.unity
+    guid: 8559587d6f6fc064a9121e204d0ffc0d
+  - enabled: 1
+    path: Assets/Scenes/syuusyokusitu.unity
+    guid: 32870f2217ef8da489fb226b8d176c66
+  - enabled: 1
     path: Assets/Scenes/2kai.unity
     guid: 5926784f4493ccc40add25f260ee075a
   - enabled: 1
