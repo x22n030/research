@@ -1,0 +1,995 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.25f1 (68ef2c4f8861) revision 6876972'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ja' Physical Memory: 8058 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/work/x22n030/research/research/project/sotukenn
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55618
+Successfully changed project path to: C:/work/x22n030/research/research/project/sotukenn
+C:/work/x22n030/research/research/project/sotukenn
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4308] Host "[IP] 192.168.26.1 [Port] 0 [Flags] 2 [Guid] 3981789704 [EditorId] 3981789704 [Version] 1048832 [Id] WindowsEditor(7,PC5201N006) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4308] Host "[IP] 192.168.26.1 [Port] 0 [Flags] 2 [Guid] 3981789704 [EditorId] 3981789704 [Version] 1048832 [Id] WindowsEditor(7,PC5201N006) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 363.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/work/x22n030/research/research/project/sotukenn/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     4029 MB
+    Driver:   31.0.101.2111
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006138 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 115.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.238 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1239ms)
+		BeginReloadAssembly (380ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (651ms)
+			LoadAssemblies (372ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (378ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008339 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\work\x22n030\research\research\project\sotukenn\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\work\x22n030\research\research\project\sotukenn\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 125.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.707 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1708ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1352ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (419ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (623ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (126ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3742 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (56.5 KB). Loaded Objects now: 4202.
+Memory consumption went from 143.0 MB to 143.0 MB.
+Total: 4.279000 ms (FindLiveObjects: 0.421900 ms CreateObjectMapping: 0.411400 ms MarkObjects: 3.337300 ms  DeleteObjects: 0.106700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3980.171482 seconds.
+  path: Assets/トイレ個室.prefab
+  artifactKey: Guid(30daf0c414bd13b4a947eb7d90afa462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/トイレ個室.prefab using Guid(30daf0c414bd13b4a947eb7d90afa462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfca73cd3e5f7768299e102e7f73b63') in 0.173144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/school_basic_0.prefab
+  artifactKey: Guid(fd5e03516eb43c041b553b729cae515e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school_basic_0.prefab using Guid(fd5e03516eb43c041b553b729cae515e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e081023553a7ff53ee9a5c0b8fc45d') in 0.039583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/横向き椅子.prefab
+  artifactKey: Guid(ce791bac0bdde1643b67765d564b3a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/横向き椅子.prefab using Guid(ce791bac0bdde1643b67765d564b3a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6a96f9bcc3f539a5b0d167c42ee0e4') in 0.041618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/机.prefab
+  artifactKey: Guid(d7d9d0805c3d0fd488f6bf694981a256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/机.prefab using Guid(d7d9d0805c3d0fd488f6bf694981a256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019283bbea61d880a9c654a65dfe43c4') in 0.041568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/棚.prefab
+  artifactKey: Guid(bd7d6930eaaa47f479a0395f71c8e0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/棚.prefab using Guid(bd7d6930eaaa47f479a0395f71c8e0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc847f4eb0c27b336575a97534e8ced') in 0.039858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/school_basic_166.prefab
+  artifactKey: Guid(382c90877856bf649bd3b49029c966c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school_basic_166.prefab using Guid(382c90877856bf649bd3b49029c966c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d68355f390cc6e6875c168d383eb36') in 0.038778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/トイレ壁 3枚.prefab
+  artifactKey: Guid(cac3e0c34266d724d8356f469d8fc55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/トイレ壁 3枚.prefab using Guid(cac3e0c34266d724d8356f469d8fc55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e5294c4f3105e27dda1497a0400a3f') in 0.036580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/トイレ壁.prefab
+  artifactKey: Guid(4063784c23bfa71448f0883b01fc1171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/トイレ壁.prefab using Guid(4063784c23bfa71448f0883b01fc1171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fadd741694ed55c9a3cc862f0d1d11f') in 0.041794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/横向き机.prefab
+  artifactKey: Guid(4fd6266e351fdd8419a09cab3a4cb6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/横向き机.prefab using Guid(4fd6266e351fdd8419a09cab3a4cb6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9cac0088177ee74189d7270d3308512') in 0.034523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/後ろ向き椅子.prefab
+  artifactKey: Guid(a82d3f0f7cf5e874ab4f5b14dddbae84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/後ろ向き椅子.prefab using Guid(a82d3f0f7cf5e874ab4f5b14dddbae84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a2c0a880eaeb9f21c4d212ccdc76fe') in 0.041757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/4tairu 2.prefab
+  artifactKey: Guid(e8cbd52b884c3424eabe081ea88ea0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4tairu 2.prefab using Guid(e8cbd52b884c3424eabe081ea88ea0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a31bb4b81d7a095a30057ff8441adc') in 0.041169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/school_basic_39 (3).prefab
+  artifactKey: Guid(09c20d962b029cd47adbff725513b449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school_basic_39 (3).prefab using Guid(09c20d962b029cd47adbff725513b449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ae74d3a7b652c82674b935fedb82fa') in 0.035107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/KABE .prefab
+  artifactKey: Guid(fbdf12e3a4b43b84da9ab492a02bdc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KABE .prefab using Guid(fbdf12e3a4b43b84da9ab492a02bdc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db24542279ba155ac1cee3fb62631abb') in 0.041998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.594817 seconds.
+  path: Assets/Mono School/Resources/GameObject.prefab
+  artifactKey: Guid(cfeaef55ddcdfde479dcccd5736afa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/GameObject.prefab using Guid(cfeaef55ddcdfde479dcccd5736afa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acec4abb2e2233e0601e437e2b33e249') in 0.026022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_8.asset
+  artifactKey: Guid(75a035c5c8c19bb4596af5d25a8f60bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_8.asset using Guid(75a035c5c8c19bb4596af5d25a8f60bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfa2699d09b8ce8cc59cf1a443c560e') in 0.037419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_14.asset
+  artifactKey: Guid(a863042d98448e446b0ce1a87a2d696a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_14.asset using Guid(a863042d98448e446b0ce1a87a2d696a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da24143f10c7e24cbbf4c2e60e654a4f') in 0.038497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_13.asset
+  artifactKey: Guid(fde8f821460702742a021bb9d1172288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_13.asset using Guid(fde8f821460702742a021bb9d1172288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486e950656e21355beb4a262674c6f3e') in 0.030107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_5.asset
+  artifactKey: Guid(391ee03f42f54dc46b250819c20a845b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_5.asset using Guid(391ee03f42f54dc46b250819c20a845b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb27222c1b064af14c552ccd44c5abb') in 0.039636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_22.asset
+  artifactKey: Guid(ad5b660784f4df94ca6ed093f5fd97ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_22.asset using Guid(ad5b660784f4df94ca6ed093f5fd97ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718123a069640363354675aebb8fd456') in 0.032257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_7.asset
+  artifactKey: Guid(fc8c444ffa37e954eb401a2ed11dde2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_7.asset using Guid(fc8c444ffa37e954eb401a2ed11dde2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34c3ecbd189e7989cf44e581bdc05a2') in 0.026476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_15.asset
+  artifactKey: Guid(b3ef1cb7dd0dabe40a6d6e2ab6e4ba8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_15.asset using Guid(b3ef1cb7dd0dabe40a6d6e2ab6e4ba8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7965256fb55b63b89f0fe6be34609aba') in 0.032425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_3.asset
+  artifactKey: Guid(93ff13f4a8da02149b95e698b01e935c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_3.asset using Guid(93ff13f4a8da02149b95e698b01e935c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7cffa699f2205317886209fa5aa86d') in 0.055335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_18.asset
+  artifactKey: Guid(4d1652e90eafdf348881afcd10fa7130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_18.asset using Guid(4d1652e90eafdf348881afcd10fa7130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb4c4ce543ba10b7079fb00e92c378d') in 0.028480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_21.asset
+  artifactKey: Guid(e85b89b29b6fc2d41aae09fd0dd9f2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_21.asset using Guid(e85b89b29b6fc2d41aae09fd0dd9f2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6778fc3d4acdb51476355f5a5bb7800f') in 0.035001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_19.asset
+  artifactKey: Guid(97440fa242ce4e040a7809819efa9217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_19.asset using Guid(97440fa242ce4e040a7809819efa9217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33be91ad8ec89b814a8cdc39e5e5ba5e') in 0.053568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_23.asset
+  artifactKey: Guid(d7590c59012d9db4682b08500b5f3aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_23.asset using Guid(d7590c59012d9db4682b08500b5f3aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4153218bf68ee50f705d7c1c773b5b4a') in 0.030859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_9.asset
+  artifactKey: Guid(2f0d129c45ce864429f83167d0ec25c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_9.asset using Guid(2f0d129c45ce864429f83167d0ec25c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01f14c3c01b1bcd4fa95e94d374d966') in 0.037680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_12.asset
+  artifactKey: Guid(ade771516a809f24cb55e900f5852f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_12.asset using Guid(ade771516a809f24cb55e900f5852f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fa666e298429602828592601f9a544') in 0.028645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_1.asset
+  artifactKey: Guid(8e6074304b4d22f4db92c1d1b9c81b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_1.asset using Guid(8e6074304b4d22f4db92c1d1b9c81b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ada231b396623cedbec5ad21fc7e5d') in 0.029927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_11.asset
+  artifactKey: Guid(f7f2e5b981f4bf446b37e76a9f74dd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_11.asset using Guid(f7f2e5b981f4bf446b37e76a9f74dd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87392fd59b2d978c630ae8ef42b7fe2c') in 0.031486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_17.asset
+  artifactKey: Guid(47cccb2854b6edd4092afde4fc039354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_17.asset using Guid(47cccb2854b6edd4092afde4fc039354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d1482ac6d581f410b604d761119d90') in 0.031060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_20.asset
+  artifactKey: Guid(0b6c00fc0bef7dd4c9660dd56bdac181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_20.asset using Guid(0b6c00fc0bef7dd4c9660dd56bdac181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edb77399971e381a010ec053306f8ba') in 0.032822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_10.asset
+  artifactKey: Guid(3e20a42e1c0f3934eb25a4899f82f9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_10.asset using Guid(3e20a42e1c0f3934eb25a4899f82f9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f218fb8cb45bb30c4dc3d9013c2eb95') in 0.026689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_2.asset
+  artifactKey: Guid(697e8f90005547e4eaad3b114979a24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_2.asset using Guid(697e8f90005547e4eaad3b114979a24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3591e547a500a119dd097a0ebee8170a') in 0.028048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_6.asset
+  artifactKey: Guid(87020fc5a7204ca48920d3202eeca33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_6.asset using Guid(87020fc5a7204ca48920d3202eeca33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f2ab747b35f20a723e5f52279fb016') in 0.024378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_0.asset
+  artifactKey: Guid(5f828b1d56714cc44917650315d7afa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_0.asset using Guid(5f828b1d56714cc44917650315d7afa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a5e60d1555c5de4882c712648395d3') in 0.028150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_4.asset
+  artifactKey: Guid(f9d283352144ce44daaace15b0d997ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_4.asset using Guid(f9d283352144ce44daaace15b0d997ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74eb3d7234a7f97b0c28ea48218a293') in 0.022420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Mono School/Resources/student1_shirt_16.asset
+  artifactKey: Guid(4c68185ae0ca33442b1eb51ef83f9dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/student1_shirt_16.asset using Guid(4c68185ae0ca33442b1eb51ef83f9dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af12440541f1997a169e8714203a7a35') in 0.029077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.562434 seconds.
+  path: Assets/Mono School/Resources/Prefab/PC.prefab
+  artifactKey: Guid(2eb3fce66d27dbb408c66bc97c1d615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Prefab/PC.prefab using Guid(2eb3fce66d27dbb408c66bc97c1d615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec02b3d058a8c73f7f00aebea66c3eab') in 0.024590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mono School/Resources/Prefab/机真ん中.prefab
+  artifactKey: Guid(3129a31f77d359544a7ff6c0ac273351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Prefab/机真ん中.prefab using Guid(3129a31f77d359544a7ff6c0ac273351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44530c187241415209c128676a796c20') in 0.143215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Mono School/Resources/Prefab/モニタ.prefab
+  artifactKey: Guid(cc6572213ca5b744492370d3ba4e56d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Prefab/モニタ.prefab using Guid(cc6572213ca5b744492370d3ba4e56d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cb49474d088f70c04b5fd59b73e1fa') in 0.055567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mono School/Resources/Prefab/本棚.prefab
+  artifactKey: Guid(9199cb90ceb40db44bafa9631ae21cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Prefab/本棚.prefab using Guid(9199cb90ceb40db44bafa9631ae21cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568e19f65bbeb667754d64c8110bc267') in 0.034097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Mono School/Resources/Prefab/机セット.prefab
+  artifactKey: Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Prefab/机セット.prefab using Guid(6e648d4dce5c36a44a886955aba62ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8cfe79ca53222dac6a589ccbb1eb20') in 0.041352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mono School/Resources/Prefab/椅子.prefab
+  artifactKey: Guid(4ea7d77f17458f046a8099534142467c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Prefab/椅子.prefab using Guid(4ea7d77f17458f046a8099534142467c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89af0602c6891d1bab80362b37b7b1c8') in 0.042881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.197723 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic.png
+  artifactKey: Guid(8656914bd3e3ef84cbdc9bb3294daf5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic.png using Guid(8656914bd3e3ef84cbdc9bb3294daf5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3031a774875d503c080402caddfe1a') in 0.497940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_17.asset
+  artifactKey: Guid(948b17120f9f800489ee58d47f34cf55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_17.asset using Guid(948b17120f9f800489ee58d47f34cf55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b302f49179a03b3d579f248054869d1') in 0.028093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_22.asset
+  artifactKey: Guid(f4b0cdc41a757934781deeebf5d7227b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_22.asset using Guid(f4b0cdc41a757934781deeebf5d7227b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7adcd9a98382b96e92ef4120480754') in 0.030226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_12.asset
+  artifactKey: Guid(840670389b8f5aa46be8237bd058e8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_12.asset using Guid(840670389b8f5aa46be8237bd058e8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1ebca0ab0a4fcdafd3a44f26374cdf') in 0.029113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003848 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_14.asset
+  artifactKey: Guid(e527edad46091ff43930f367e0dfcdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_14.asset using Guid(e527edad46091ff43930f367e0dfcdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dd23045a8f64a840e47eb59ce4ed0f') in 0.029001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_11.asset
+  artifactKey: Guid(9d326812a1985544c8fb239d177c60a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_11.asset using Guid(9d326812a1985544c8fb239d177c60a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1750bf20148cb73a63d9ce149aba490') in 0.028018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_28.asset
+  artifactKey: Guid(563f4b45065771543b033d08b96917ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_28.asset using Guid(563f4b45065771543b033d08b96917ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35526e5027c6bf00593f269e7b380beb') in 0.030317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_1.asset
+  artifactKey: Guid(d93f04a28556976408cbdd5823523935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_1.asset using Guid(d93f04a28556976408cbdd5823523935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cda3dfa6d6c4fe47b52b3fbd7871e9') in 0.030793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_18.asset
+  artifactKey: Guid(cae0f80c4ed56e84088539d8c5c6cfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_18.asset using Guid(cae0f80c4ed56e84088539d8c5c6cfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40995b1d14b76f1a7d584f8643174cdd') in 0.030875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_13.asset
+  artifactKey: Guid(4ad192310cebf1547af57c5aca59a3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_13.asset using Guid(4ad192310cebf1547af57c5aca59a3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed9275949c96e4429cc66fba049cd95') in 0.079926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_5.asset
+  artifactKey: Guid(fe428d8fa8e723f48ac8652cb99e4dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_5.asset using Guid(fe428d8fa8e723f48ac8652cb99e4dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce4afb0fa786d2c2315fb1943f49fb7') in 0.025930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_15.asset
+  artifactKey: Guid(b90be9cd2c13c11499cc78a549eeac1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_15.asset using Guid(b90be9cd2c13c11499cc78a549eeac1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0ca5d8507bc0802ca2e00ad3d8808f') in 0.025773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_20.asset
+  artifactKey: Guid(49e063c486af6d24ca2afe1583bc91cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_20.asset using Guid(49e063c486af6d24ca2afe1583bc91cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa83f08567d1114d463c7cfe563c100') in 0.025500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_21.asset
+  artifactKey: Guid(ab2395827e49e994380887a50416199f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_21.asset using Guid(ab2395827e49e994380887a50416199f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95db7311b914faad6de4de15140b6990') in 0.029855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001062 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_7.asset
+  artifactKey: Guid(b94b35b3c8ec2a947a6a2d883124b258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_7.asset using Guid(b94b35b3c8ec2a947a6a2d883124b258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8bf1b1103821be854dbd006fa24407') in 0.032101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_29.asset
+  artifactKey: Guid(5d54df125b247a64aa1bdaa3ec369692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_29.asset using Guid(5d54df125b247a64aa1bdaa3ec369692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f296fe7c5245d5dbceb3305d5ed5c60') in 0.029214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_8.asset
+  artifactKey: Guid(c9aa61c01d8cd2f45948a6bbd47cc779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_8.asset using Guid(c9aa61c01d8cd2f45948a6bbd47cc779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011a63055233b6ab9566e64b035840a5') in 0.029519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_27.asset
+  artifactKey: Guid(e37f5f1425d55264ab57590ff8b11c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_27.asset using Guid(e37f5f1425d55264ab57590ff8b11c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc50a12f7f08ef770625a71b41993d79') in 0.026599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_26.asset
+  artifactKey: Guid(327df2fee24605f46bd539a73cb02e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_26.asset using Guid(327df2fee24605f46bd539a73cb02e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc25b404123fcf4ba84062a2f9ba0c26') in 0.027736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_3.asset
+  artifactKey: Guid(ab7640793ec4e554dbdcee4e4bd04ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_3.asset using Guid(ab7640793ec4e554dbdcee4e4bd04ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c81be14c76b4b83a7633ac848b26c0') in 0.029378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_19.asset
+  artifactKey: Guid(f0b2a0177e347b849b8d81324d2f4826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_19.asset using Guid(f0b2a0177e347b849b8d81324d2f4826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c40dd36baa8ba6b32ccf4cc82ddb415') in 0.027952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_2.asset
+  artifactKey: Guid(0b283cf5c1baa814eb405e6e2879ef4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_2.asset using Guid(0b283cf5c1baa814eb405e6e2879ef4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3f42115fc2d3833dea5cf230086a17') in 0.027061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_25.asset
+  artifactKey: Guid(3aa5964e91073b44cbf92b9054d74b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_25.asset using Guid(3aa5964e91073b44cbf92b9054d74b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbf5f9389745e750eb7afdce73bcba8') in 0.025931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_23.asset
+  artifactKey: Guid(c1542cb8b7585e14f821dfda79529f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_23.asset using Guid(c1542cb8b7585e14f821dfda79529f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f1e027ca2a5ff2a396836faa99948b') in 0.030516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_10.asset
+  artifactKey: Guid(7b60364023a50a74c80b58df0f93df72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_10.asset using Guid(7b60364023a50a74c80b58df0f93df72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2369239930cfdca5933d663087356f40') in 0.046999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_30.asset
+  artifactKey: Guid(4db0da9ae2e5fc44f8ccb9e952f4daef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_30.asset using Guid(4db0da9ae2e5fc44f8ccb9e952f4daef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10bf8de031cc0cd87bade2167f7b8b5') in 0.033770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_4.asset
+  artifactKey: Guid(e9a2561a89d85fd4aa2dc272e4fa9b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_4.asset using Guid(e9a2561a89d85fd4aa2dc272e4fa9b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93c2e3014e14d7dff4a9f152e9a1647') in 0.050177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_9.asset
+  artifactKey: Guid(258abd35a93b2124f9d363ff4e4d7de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_9.asset using Guid(258abd35a93b2124f9d363ff4e4d7de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7db05283847d8eb33d2eea3b8540ae5') in 0.053576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mono School/Resources/Character/student3.png
+  artifactKey: Guid(4816820d8a28f6447adae747b0608daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Character/student3.png using Guid(4816820d8a28f6447adae747b0608daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36abd6a9855dbb9c93e890611e2f3a5b') in 0.134016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Mono School/Resources/Character/student3_shirt.png
+  artifactKey: Guid(223eea1cbd33aa34ba0ccb0dfca6b7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Character/student3_shirt.png using Guid(223eea1cbd33aa34ba0ccb0dfca6b7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e122956af79a3e9e662b8abfed23da') in 0.112195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mono School/Resources/Character/student8_shirt.png
+  artifactKey: Guid(fa410cdd93337704a98e872bd9f94d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Character/student8_shirt.png using Guid(fa410cdd93337704a98e872bd9f94d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5761b48ae771f7aba59fc58cfa6208b2') in 0.108494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Mono School/Resources/Character/student5.png
+  artifactKey: Guid(2e9e2b93560be3b448d2b90f1b73c8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Character/student5.png using Guid(2e9e2b93560be3b448d2b90f1b73c8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab4e5ae1da7e7de1c87f2460f7e02ea') in 0.094246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Mono School/Resources/Character/student1.png
+  artifactKey: Guid(bd70567365276a64db7e63b233230b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Character/student1.png using Guid(bd70567365276a64db7e63b233230b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a84df09abeba42e260c0001dfbf9ce') in 0.093438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_24.asset
+  artifactKey: Guid(4e122e6c10ac90541bcf56bc4875109e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_24.asset using Guid(4e122e6c10ac90541bcf56bc4875109e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e1a86ed5021ec3808a72f0de06e025') in 0.028570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_6.asset
+  artifactKey: Guid(db4a9f5fe4eefb74bacbfff504e65d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_6.asset using Guid(db4a9f5fe4eefb74bacbfff504e65d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc51adcbe3dc23b6b4fef0b39ce3b9b') in 0.033272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_16.asset
+  artifactKey: Guid(901c65479b5a2024baef6741ae80db7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_16.asset using Guid(901c65479b5a2024baef6741ae80db7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e2f15a852d58709c3f1df4b73c2494') in 0.019949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_0.asset
+  artifactKey: Guid(2f48105509fd85b4e812c356193bea64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_0.asset using Guid(2f48105509fd85b4e812c356193bea64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dac1fbd61582eeb57d860b42b7e84be') in 0.028628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.749724 seconds.
+  path: Assets/Mono School/Resources/Prefab
+  artifactKey: Guid(8d17a8091f349584b89fa72362b6c7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Prefab using Guid(8d17a8091f349584b89fa72362b6c7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7788f9ce4e6150fbb677aa3d8482591d') in 0.026742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.519889 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_31.asset
+  artifactKey: Guid(4fa446b7252174743aa99e0bf7e5e5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_31.asset using Guid(4fa446b7252174743aa99e0bf7e5e5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230fb61862ee97d2d3c3db7ac2376ca3') in 0.019615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_38.asset
+  artifactKey: Guid(3eb5b1d2fd91395499f593b6fa0eb2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_38.asset using Guid(3eb5b1d2fd91395499f593b6fa0eb2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410f6d06a1b1f3ab2dd7a5d206ea0dc1') in 0.036215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_37.asset
+  artifactKey: Guid(7b608ecebcb186341a54cfe320f2768a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_37.asset using Guid(7b608ecebcb186341a54cfe320f2768a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9edceddfb384d8150e3ac11fca28684') in 0.057377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_33.asset
+  artifactKey: Guid(08205f3cd43822c4b8f327d9026fa236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_33.asset using Guid(08205f3cd43822c4b8f327d9026fa236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7852c50b21add6891e3bd17248348af8') in 0.059025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_32.asset
+  artifactKey: Guid(d333bf79eb5841d409f47fe03cc70a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_32.asset using Guid(d333bf79eb5841d409f47fe03cc70a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5f9b2a829c3e581fcf78e3d9f23f3b') in 0.026071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_34.asset
+  artifactKey: Guid(6dfbb0e348e7121409930a0fce6a355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_34.asset using Guid(6dfbb0e348e7121409930a0fce6a355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff78130043c0850c47eddd506881100d') in 0.039146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_44.asset
+  artifactKey: Guid(cf45d8de3cc50db46a19ab3e0cf33b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_44.asset using Guid(cf45d8de3cc50db46a19ab3e0cf33b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b036fd27eb070bbe7227fe0a22bf0ed') in 0.035353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_50.asset
+  artifactKey: Guid(95b20bf6fb1c51f43b5b4b79fc1d7ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_50.asset using Guid(95b20bf6fb1c51f43b5b4b79fc1d7ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1798c6ad4aed1ec92328dcbdadc8d16c') in 0.038812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_51.asset
+  artifactKey: Guid(48d08b72f02254a43a001f1a65cdbaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_51.asset using Guid(48d08b72f02254a43a001f1a65cdbaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d62fc72bd99e1a2ed67a292ad0cbaf') in 0.036448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_43.asset
+  artifactKey: Guid(d0e85428bf918b146bfe439894fc0446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_43.asset using Guid(d0e85428bf918b146bfe439894fc0446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c7a10bfddd584085164dc0adfeb3b9') in 0.033603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_49.asset
+  artifactKey: Guid(59e849689218bb84ebacb4e354eac04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_49.asset using Guid(59e849689218bb84ebacb4e354eac04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a79e0a277c1ce2ceff88f21d9d90dbe') in 0.037309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_57.asset
+  artifactKey: Guid(dcff2f0a34ee7844dbb787f4c74e1a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_57.asset using Guid(dcff2f0a34ee7844dbb787f4c74e1a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2963af8803b915a89b1af65af2fc86d6') in 0.035891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_77.asset
+  artifactKey: Guid(a4f4ef9b324d07a40a5d13fd36bb2499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_77.asset using Guid(a4f4ef9b324d07a40a5d13fd36bb2499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e1467d9bc28b18ade8e2bc398f9b42') in 0.043366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_74.asset
+  artifactKey: Guid(17bce47acdc1e3a43a3ca1190484b2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_74.asset using Guid(17bce47acdc1e3a43a3ca1190484b2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db037425a3336038b7040adeff3c8083') in 0.036606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_67.asset
+  artifactKey: Guid(95d943db5d6d473408f9879468495066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_67.asset using Guid(95d943db5d6d473408f9879468495066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3354f3d7cb610f8570e07736f9d22f8f') in 0.026977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_78.asset
+  artifactKey: Guid(406300f3c109efe4c99580b156915250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_78.asset using Guid(406300f3c109efe4c99580b156915250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cacc0666975a343adb4083ab6cfa06f') in 0.031254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_86.asset
+  artifactKey: Guid(bdce4aeec5a7eb44693f203d31cac610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_86.asset using Guid(bdce4aeec5a7eb44693f203d31cac610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f73cca0da2e8e3108fbe615be16d75') in 0.035113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_40.asset
+  artifactKey: Guid(91e9743f51aecc0439b88b4326f8a76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_40.asset using Guid(91e9743f51aecc0439b88b4326f8a76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708083b5fc780594b5b9749b4ea68ca3') in 0.032861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000769 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_69.asset
+  artifactKey: Guid(41980a2ec62e630489888b25dcabf045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_69.asset using Guid(41980a2ec62e630489888b25dcabf045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7de495caaddac625d468efbffc9af07') in 0.040640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_65.asset
+  artifactKey: Guid(cf214224e140ed64ca9d335511c01221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_65.asset using Guid(cf214224e140ed64ca9d335511c01221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797f2fb6fcc1959c0e7f461b237b3615') in 0.033186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_42.asset
+  artifactKey: Guid(ebb37e94c73360b439732db99e755e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_42.asset using Guid(ebb37e94c73360b439732db99e755e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97dd8e57719ceea37120d27d0ddea34') in 0.032653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_54.asset
+  artifactKey: Guid(8198dbb45c559474d9ef4f740a309071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_54.asset using Guid(8198dbb45c559474d9ef4f740a309071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09950066d707ff047436ba5516ae5521') in 0.030337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_39.asset
+  artifactKey: Guid(151f4a1d787cab2409010b6987b35982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_39.asset using Guid(151f4a1d787cab2409010b6987b35982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ee9c5f80a43e7d63828b7c08909059') in 0.031052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_46.asset
+  artifactKey: Guid(1d0532dc753f62a4c92b74f341d6ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_46.asset using Guid(1d0532dc753f62a4c92b74f341d6ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bc08a05258bf7893f1824df54f4c7f') in 0.027587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_73.asset
+  artifactKey: Guid(7dcb4fa6c6f59fb418d43bd9716eea14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_73.asset using Guid(7dcb4fa6c6f59fb418d43bd9716eea14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765468e525b1ad6e74b27e2c91063b5b') in 0.034338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_82.asset
+  artifactKey: Guid(83fc5587ddcb14841a6bf5df2b09b48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_82.asset using Guid(83fc5587ddcb14841a6bf5df2b09b48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddfb24387a888e341b80841378a8966') in 0.033260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_58.asset
+  artifactKey: Guid(cf18079aab6735c4da047bde43d9b37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_58.asset using Guid(cf18079aab6735c4da047bde43d9b37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3266de45a3225fc8f2ca15a7feb647db') in 0.034595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_84.asset
+  artifactKey: Guid(1b9a39d577a9d8b46bdf32c54f951db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_84.asset using Guid(1b9a39d577a9d8b46bdf32c54f951db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4bf38a9bcf5c0b0062f110c57969cd') in 0.045283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_72.asset
+  artifactKey: Guid(46de9d54e1210554eafbbe04c80117f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_72.asset using Guid(46de9d54e1210554eafbbe04c80117f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e725bb9f23b3357350305c60ef1f8b28') in 0.029659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_56.asset
+  artifactKey: Guid(36a069be78016844a9d480594f9b0787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_56.asset using Guid(36a069be78016844a9d480594f9b0787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650f4a099009165042e67c31321f5207') in 0.023641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_52.asset
+  artifactKey: Guid(8f759928c49640c43aa6ab4e6fa4bc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_52.asset using Guid(8f759928c49640c43aa6ab4e6fa4bc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93dbc140ff92e8ed8e22c80f262e9159') in 0.025766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_47.asset
+  artifactKey: Guid(65f2d9a382093c242b89f516bf988bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_47.asset using Guid(65f2d9a382093c242b89f516bf988bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7e2436300af9fe65f0b0a173e86f80') in 0.021943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_36.asset
+  artifactKey: Guid(a19e533c94b4f9e4681ba2d18c7cbcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_36.asset using Guid(a19e533c94b4f9e4681ba2d18c7cbcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae04b732698dba3857073c171ead1c2') in 0.032309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_62.asset
+  artifactKey: Guid(cf3732cac791b4240a157a2d9adde3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_62.asset using Guid(cf3732cac791b4240a157a2d9adde3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e313fd99768cc7c4932ecdefaabfcf') in 0.030981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_35.asset
+  artifactKey: Guid(a3f89c9cb08e997438e2ae5ed1b1ef9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_35.asset using Guid(a3f89c9cb08e997438e2ae5ed1b1ef9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8033cdc45061b10b1a5c823f7db5cf7c') in 0.023813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_80.asset
+  artifactKey: Guid(96b0c2ae82044cc4ea2673da954362ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_80.asset using Guid(96b0c2ae82044cc4ea2673da954362ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df027901065ddfabc221bad331fa935') in 0.024872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_41.asset
+  artifactKey: Guid(094b651f53264814581301f14ae7ab4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_41.asset using Guid(094b651f53264814581301f14ae7ab4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fde1dab88252f42f544ef82ff323374') in 0.029802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_68.asset
+  artifactKey: Guid(3642641d8bb13db4f9c92419435213a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_68.asset using Guid(3642641d8bb13db4f9c92419435213a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6df719938ab88a4c81ccb2a0a01ca6') in 0.025546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_71.asset
+  artifactKey: Guid(e5d652b05567e1c4a94b7d4096197029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_71.asset using Guid(e5d652b05567e1c4a94b7d4096197029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c00b00475dcc681c883bee3e922f04') in 0.027369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_70.asset
+  artifactKey: Guid(58d0596876932e64dbe465d774fed0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_70.asset using Guid(58d0596876932e64dbe465d774fed0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f6da901a4547eb3bf5a335d6cd64d9') in 0.029310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_81.asset
+  artifactKey: Guid(3fcc28ce3b1a24c4787f84e395953885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_81.asset using Guid(3fcc28ce3b1a24c4787f84e395953885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b1f6b4b7e99fac00b1cf36f7f3c38f') in 0.023149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_83.asset
+  artifactKey: Guid(eb5bcf08b22781046a0049cda5372c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_83.asset using Guid(eb5bcf08b22781046a0049cda5372c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0def112375c70db64d01ea4f7e84e5b0') in 0.303072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_85.asset
+  artifactKey: Guid(1a4e77cce09f12a4a9ed44672f95cbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_85.asset using Guid(1a4e77cce09f12a4a9ed44672f95cbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f79201544563027279e31f04ab4ae5f') in 0.025663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_53.asset
+  artifactKey: Guid(8fb462fceb97b9e419a717b3d943e265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_53.asset using Guid(8fb462fceb97b9e419a717b3d943e265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba843b36f01c14e688d2d02f1decc77') in 0.031324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_64.asset
+  artifactKey: Guid(8e6cbd5291014cc469eb30cf6e0fd47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_64.asset using Guid(8e6cbd5291014cc469eb30cf6e0fd47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade12eee0ae5b128c6ab1d3e3951e00d') in 0.025148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_48.asset
+  artifactKey: Guid(56dbad8eaa93a0b43a375eebfca22730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_48.asset using Guid(56dbad8eaa93a0b43a375eebfca22730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e121aef2d128477f2fe11e15940545ed') in 0.031249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_60.asset
+  artifactKey: Guid(7ec314ca46aca9845b06d40af006466d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_60.asset using Guid(7ec314ca46aca9845b06d40af006466d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947c42772f3848e39d171a00e22003e8') in 0.026507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_63.asset
+  artifactKey: Guid(497b07f08a93f4e4387903a629a4dedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_63.asset using Guid(497b07f08a93f4e4387903a629a4dedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a5c3b5b54d5fb38c9704c95d6abaa3') in 0.030090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_76.asset
+  artifactKey: Guid(0c886c6a00a263b43ac3171c5e98d511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_76.asset using Guid(0c886c6a00a263b43ac3171c5e98d511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318d202b5626675fd2b7908488726677') in 0.024400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_75.asset
+  artifactKey: Guid(1ca58743ab7903843825a341498615fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_75.asset using Guid(1ca58743ab7903843825a341498615fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09416a2dd749d3b46929eac7817fa1e') in 0.044560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_55.asset
+  artifactKey: Guid(179122b864f0bb244973cbe423191a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_55.asset using Guid(179122b864f0bb244973cbe423191a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb15316f446505573cc92f73e7f351a') in 0.032022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_59.asset
+  artifactKey: Guid(b3bb47056b59800438627931deeeddfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_59.asset using Guid(b3bb47056b59800438627931deeeddfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6a067360d7d5121706549d616dafc4') in 0.026163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_66.asset
+  artifactKey: Guid(35215763abe3f1f40a054a21b85edc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_66.asset using Guid(35215763abe3f1f40a054a21b85edc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec26689f97f684f1e14c3af506dcd6de') in 0.022774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_45.asset
+  artifactKey: Guid(dd2758bb7859a534abe4619451d8ea0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_45.asset using Guid(dd2758bb7859a534abe4619451d8ea0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bddaf300ac5b44f4e4066f22aca73f2e') in 0.032778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_61.asset
+  artifactKey: Guid(ccf0870e27b00c8438fbca630bc525c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_61.asset using Guid(ccf0870e27b00c8438fbca630bc525c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57546b880276358765c83c7f14df369c') in 0.029025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Mono School/Resources/Map/school_basic_79.asset
+  artifactKey: Guid(2482bdabde41f974d8bbeac333cca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mono School/Resources/Map/school_basic_79.asset using Guid(2482bdabde41f974d8bbeac333cca491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc897aadb726e1eb056ae7dcab0253cc') in 0.053858 seconds 
