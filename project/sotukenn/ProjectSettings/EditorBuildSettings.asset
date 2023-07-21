@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/kyousitu 5.unity
     guid: 40d812f7f33530f42a6839666d7711c9
+  - enabled: 1
+    path: Assets/Scenes/TOILET.unity
+    guid: 05189122aafe2754c87a42bdcd9a4a52
   m_configObjects: {}
