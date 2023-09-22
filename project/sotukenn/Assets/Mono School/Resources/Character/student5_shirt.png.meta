@@ -3,7 +3,7 @@ guid: f92fbc4b34f1e6b4cb370ba5db2ab29d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -106,6 +107,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -630,30 +643,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      student5_shirt_22: 1775711264
+      student5_shirt_0: 1248273432
       student5_shirt_1: 890343232
       student5_shirt_10: 1447743516
-      student5_shirt_2: -1007717048
-      student5_shirt_5: -683280193
+      student5_shirt_11: -267790196
+      student5_shirt_12: 1087421276
+      student5_shirt_13: 28083610
       student5_shirt_14: 1406480856
-      student5_shirt_4: 1025478778
       student5_shirt_15: -74042032
       student5_shirt_16: 892581802
+      student5_shirt_17: 155315945
+      student5_shirt_18: -645198245
+      student5_shirt_19: 180318097
+      student5_shirt_2: -1007717048
+      student5_shirt_20: -1351907194
+      student5_shirt_21: 2127642489
+      student5_shirt_22: 1775711264
+      student5_shirt_23: 1373126842
+      student5_shirt_3: -1015671620
+      student5_shirt_4: 1025478778
+      student5_shirt_5: -683280193
       student5_shirt_6: -1188923116
       student5_shirt_7: -1176311635
-      student5_shirt_23: 1373126842
-      student5_shirt_0: 1248273432
-      student5_shirt_18: -645198245
-      student5_shirt_20: -1351907194
-      student5_shirt_3: -1015671620
-      student5_shirt_9: 1327180144
-      student5_shirt_19: 180318097
-      student5_shirt_17: 155315945
-      student5_shirt_13: 28083610
-      student5_shirt_12: 1087421276
       student5_shirt_8: 799519653
-      student5_shirt_21: 2127642489
-      student5_shirt_11: -267790196
+      student5_shirt_9: 1327180144
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

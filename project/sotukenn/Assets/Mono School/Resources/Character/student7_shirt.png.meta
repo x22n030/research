@@ -3,7 +3,7 @@ guid: 99a185300c7a6534e9fda3539fa71c43
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -106,6 +107,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -630,30 +643,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      student7_shirt_0: 2137257589
+      student7_shirt_1: 600514637
+      student7_shirt_10: 979124844
+      student7_shirt_11: -744535383
       student7_shirt_12: -238806832
+      student7_shirt_13: 1426840253
+      student7_shirt_14: -1664361676
+      student7_shirt_15: -491200978
+      student7_shirt_16: 1840722419
       student7_shirt_17: 396480379
-      student7_shirt_7: -1215482574
+      student7_shirt_18: -671202418
+      student7_shirt_19: 48020364
+      student7_shirt_2: 768003466
+      student7_shirt_20: 1005507855
       student7_shirt_21: -477642770
       student7_shirt_22: 309327006
-      student7_shirt_3: 8115330
-      student7_shirt_14: -1664361676
-      student7_shirt_2: 768003466
-      student7_shirt_19: 48020364
-      student7_shirt_4: 1763921160
-      student7_shirt_16: 1840722419
-      student7_shirt_15: -491200978
-      student7_shirt_6: 1520593
-      student7_shirt_10: 979124844
-      student7_shirt_5: 613041064
-      student7_shirt_8: -814218946
-      student7_shirt_11: -744535383
-      student7_shirt_18: -671202418
       student7_shirt_23: 1857984877
-      student7_shirt_0: 2137257589
-      student7_shirt_20: 1005507855
-      student7_shirt_1: 600514637
+      student7_shirt_3: 8115330
+      student7_shirt_4: 1763921160
+      student7_shirt_5: 613041064
+      student7_shirt_6: 1520593
+      student7_shirt_7: -1215482574
+      student7_shirt_8: -814218946
       student7_shirt_9: -386542456
-      student7_shirt_13: 1426840253
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -3,7 +3,7 @@ guid: 2cc9302adc42300419bef6461cc0e9f1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -106,6 +107,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -630,29 +643,29 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      student1_shirt_0: 1175358859
+      student1_shirt_1: -552538169
+      student1_shirt_10: -1484708948
+      student1_shirt_11: 2113457434
       student1_shirt_12: -1145466049
-      student1_shirt_20: -1587732927
-      student1_shirt_22: -1778316530
-      student1_shirt_16: 202707423
-      student1_shirt_8: -933554505
+      student1_shirt_13: 562261677
       student1_shirt_14: -2070638840
       student1_shirt_15: -593412794
-      student1_shirt_2: -1058520925
-      student1_shirt_5: -967826939
-      student1_shirt_0: 1175358859
-      student1_shirt_10: -1484708948
-      student1_shirt_7: 1678895233
+      student1_shirt_16: 202707423
       student1_shirt_17: -1994209797
-      student1_shirt_19: 1121009882
-      student1_shirt_21: -1211929259
-      student1_shirt_6: 1335962842
-      student1_shirt_11: 2113457434
-      student1_shirt_23: 1291204776
       student1_shirt_18: 1858990494
-      student1_shirt_1: -552538169
-      student1_shirt_13: 562261677
-      student1_shirt_4: 530333732
+      student1_shirt_19: 1121009882
+      student1_shirt_2: -1058520925
+      student1_shirt_20: -1587732927
+      student1_shirt_21: -1211929259
+      student1_shirt_22: -1778316530
+      student1_shirt_23: 1291204776
       student1_shirt_3: 430086502
+      student1_shirt_4: 530333732
+      student1_shirt_5: -967826939
+      student1_shirt_6: 1335962842
+      student1_shirt_7: 1678895233
+      student1_shirt_8: -933554505
       student1_shirt_9: 1419606048
   spritePackingTag: 
   pSDRemoveMatte: 0

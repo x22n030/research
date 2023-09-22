@@ -3,7 +3,7 @@ guid: 001909dd196a47843a8394d3fd844883
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -106,6 +107,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -630,30 +643,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      student7_22: 1811133678
-      student7_6: -81823053
-      student7_13: -955788676
-      student7_19: -238832357
-      student7_16: 623414429
-      student7_20: -784923436
-      student7_2: 1453925086
-      student7_4: 628282900
       student7_0: -1673641689
-      student7_8: -748637822
-      student7_17: -34968495
-      student7_9: 708382209
-      student7_7: -562847283
-      student7_21: -1048709166
-      student7_5: -1291942325
-      student7_11: -1442462527
-      student7_15: 675401630
-      student7_12: -1386275916
-      student7_18: 526424423
-      student7_3: 596883718
-      student7_23: -935417751
-      student7_10: -256163766
-      student7_14: 494854911
       student7_1: 153139293
+      student7_10: -256163766
+      student7_11: -1442462527
+      student7_12: -1386275916
+      student7_13: -955788676
+      student7_14: 494854911
+      student7_15: 675401630
+      student7_16: 623414429
+      student7_17: -34968495
+      student7_18: 526424423
+      student7_19: -238832357
+      student7_2: 1453925086
+      student7_20: -784923436
+      student7_21: -1048709166
+      student7_22: 1811133678
+      student7_23: -935417751
+      student7_3: 596883718
+      student7_4: 628282900
+      student7_5: -1291942325
+      student7_6: -81823053
+      student7_7: -562847283
+      student7_8: -748637822
+      student7_9: 708382209
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

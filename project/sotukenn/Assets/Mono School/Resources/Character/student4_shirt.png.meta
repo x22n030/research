@@ -3,7 +3,7 @@ guid: c0e929208c78c8d4a96c91c443e2f640
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -106,6 +107,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -630,30 +643,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      student4_shirt_21: 1664741131
-      student4_shirt_4: -1922774681
-      student4_shirt_11: 1530883095
-      student4_shirt_16: 1275959979
-      student4_shirt_15: 701405503
-      student4_shirt_9: 2066597125
-      student4_shirt_22: 2019077733
-      student4_shirt_5: 1739016008
-      student4_shirt_12: -115745588
-      student4_shirt_6: -554872218
-      student4_shirt_18: -312060657
-      student4_shirt_20: -2078234033
-      student4_shirt_19: -1515078398
-      student4_shirt_23: -1362948006
-      student4_shirt_3: 1256327022
-      student4_shirt_2: -1092321365
-      student4_shirt_13: 1800885237
+      student4_shirt_0: 1205123330
       student4_shirt_1: 219166030
       student4_shirt_10: 1876482373
+      student4_shirt_11: 1530883095
+      student4_shirt_12: -115745588
+      student4_shirt_13: 1800885237
       student4_shirt_14: 1282266587
-      student4_shirt_7: 3189911
+      student4_shirt_15: 701405503
+      student4_shirt_16: 1275959979
       student4_shirt_17: -1631710592
-      student4_shirt_0: 1205123330
+      student4_shirt_18: -312060657
+      student4_shirt_19: -1515078398
+      student4_shirt_2: -1092321365
+      student4_shirt_20: -2078234033
+      student4_shirt_21: 1664741131
+      student4_shirt_22: 2019077733
+      student4_shirt_23: -1362948006
+      student4_shirt_3: 1256327022
+      student4_shirt_4: -1922774681
+      student4_shirt_5: 1739016008
+      student4_shirt_6: -554872218
+      student4_shirt_7: 3189911
       student4_shirt_8: 807287537
+      student4_shirt_9: 2066597125
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
