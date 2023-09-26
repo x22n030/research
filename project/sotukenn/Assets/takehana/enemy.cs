@@ -16,13 +16,17 @@ public class enemy : MonoBehaviour
     {
         Quaternion lookRotation = Quaternion.LookRotation(target.transform.position - transform.position, Vector3.up);
 
+        Debug.Log("TEST1:" + (target.transform.position - transform.position));
+
         lookRotation.z = 0;
         lookRotation.x = 0;
 
-        transform.rotation = Quaternion.Lerp(transform.rotation, lookRotation, 0.1f);
+        transform.rotation = Quaternion.Lerp(transform.rotation, lookRotation, 0.4f);
 
-        Vector3 p = new Vector3(0.005f, 0.005f, 0.02f);
+        Vector3 p = new Vector3(0.05f, 0f, 0f);
 
         transform.Translate(p);
+        Debug.Log("TEST2:" + this.transform.position.x+"/"+this.transform.position.y+"/"+this.transform.position.z);
+
     }
 }
