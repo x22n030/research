@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TOILET.unity
     guid: 05189122aafe2754c87a42bdcd9a4a52
+  - enabled: 1
+    path: Assets/Scenes/gameover.unity
+    guid: fc4cd04411f2d8948985a0548846de57
   m_configObjects: {}
