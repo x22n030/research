@@ -2,6 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum PANEL
+{
+    ROOM,
+    LIGHT_STAND,
+    DRAWER,
+    PC
+}
+
+
 public class GameManager : MonoBehaviour
 {
     //各パネルを取得
@@ -9,6 +18,10 @@ public class GameManager : MonoBehaviour
     public GameObject drawerPanel;
     public GameObject pcPanel;
 
+    //現在表示しているパネル
+    public PANEL currentPanel = PANEL.ROOM; //７の2:12のとこ
+
+    
     //ボタンを押したら該当するパネルを表示
     public void OnClickLightStandTrigger()
     {
