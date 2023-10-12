@@ -14,6 +14,7 @@ public class ItemBoxManager : MonoBehaviour
     [SerializeField] Sprite lightBulbSprite; //電球画像
     [SerializeField] Image[] itemBoxImages;
     [SerializeField] LightStandManager lightStandManager;
+    [SerializeField] GameManager gameManager;
 
 
     ITEM[] itemList = new ITEM[4]; //取得したアイテムの配列
@@ -38,15 +39,13 @@ public class ItemBoxManager : MonoBehaviour
     //アイテムの使用
     public void UseItem(int index)
     {
-        switch (itemList[index])
+        if (gameManager.currentPanel == PANEL.LIGHT_STAND && itemList[index] == ITEM.LIGHT_BULB)
         {
-            case ITEM.LIGHT_BULB:
-                lightStandManager.LightSwitch(true);
-                break;
-            default:
-                break;
+            lightStandManager.LightSwitch(true);
+            itemList[index] = ITEM.NONE; //アイテムを使用したので空になる
+            itemBoxImages[index].sprite = null;
         }
-        itemList[index] = ITEM.NONE; //アイテムを使用したので空になる
-        itemBoxImages[index].sprite = null;
+      
+        
     }
 }
