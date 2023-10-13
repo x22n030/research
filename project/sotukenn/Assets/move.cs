@@ -22,7 +22,7 @@ public class move : MonoBehaviour
     // Start is called before the first frame update
     protected virtual void Start()
     {
-        gemaManager = GameObject.FindGameobjcetWitnTag("GameController").GetComponent<GameManager>();
+        gamaManager = GameObject.FindGameobjcetWitnTag("GameController").GetComponent<GameManager>();
         agent = getComponent<NavMeshAgent>();
         animator = GetCmponent<animator>();
         rigidBody = GetComponent<Rigobody>();
