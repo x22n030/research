@@ -7,21 +7,29 @@ public class ItemBox : MonoBehaviour
     //必要な要素
     //Boxそれぞれの画像情報
     public GameObject[] boxs;
+
+
+    //このクラスは他のどのファイルでも使いたい
+    //static化 : どこからでも取得できるようにする
+    public static ItemBox instance;
+    private void Awake()
+    {
+        instance = this;
+    }
     
     public void Start ()
     {
-        public void SetItem()
-        {
-            boxs[0].SetActive(false);
-            boxs[1].SetActive(false);
-            boxs[2].SetActive(false);
-            boxs[3].SetActive(false);
-            boxs[4].SetActive(false);
+        
+        boxs[0].SetActive(false);
+        boxs[1].SetActive(false);
+        boxs[2].SetActive(false);
+        boxs[3].SetActive(false);
+        boxs[4].SetActive(false);
 
-            SetItem();
-            UseItem();
+        SetItem();
+        UseItem();
 
-        }
+    }
 
 
         //処理
