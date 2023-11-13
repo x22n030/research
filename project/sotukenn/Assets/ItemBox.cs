@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ItemBox : MonoBehaviour
-{
+{   
     //•K—v‚È—v‘f
     //Box‚»‚ê‚¼‚ê‚Ì‰æ‘œî•ñ
     public GameObject[] boxs;
