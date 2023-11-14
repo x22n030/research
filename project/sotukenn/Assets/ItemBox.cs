@@ -25,25 +25,23 @@ public class ItemBox : MonoBehaviour
         boxs[2].SetActive(false);
         boxs[3].SetActive(false);
         boxs[4].SetActive(false);
-
-        SetItem();
-        UseItem();
-
     }
 
 
         //処理
         //アイテムがクリックされた時に、そのアイテム画像をアイテムBoxに表示する
-        public void SetItem()
+        public void SetItem(ItemType item)
     {
-        boxs[0].SetActive(true);
+        int index = (int)item;
+        boxs[index].SetActive(true);
 
     }
     //アイテムが使えるかどうかを調べる（アイテムBoxに存在するか調べる）
-    bool CanUseItem()
+    public bool CanUseItem(Item.ItemType item)
         {
+        int index = (int)item;
             //画像が表示されていれば使える
-            if(boxs[0].activeSelf == true)
+            if(boxs[index].activeSelf == true)
             {
                 return true;
             }
@@ -51,8 +49,9 @@ public class ItemBox : MonoBehaviour
         }
     //アイテムを使うときに、そのアイテム画像をBoxから非表示にする
 
-    public void UseItem()
+    public void UseItem(Item.ItemType item)
         {
-            boxs[0].SetActive(false);
+            int index = (int)item;
+            boxs[index].SetActive(false);
         }
 }
