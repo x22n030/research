@@ -24,7 +24,7 @@ public class item : MonoBehaviour
     public void OnThis()
     {
         //非表示
-        gameObject.SetActive(false)
+        gameObject.SetActive(false);
         // TODO: アイテムBoxへ追加:
         ItemBox.instance.SetItem(item);
 
