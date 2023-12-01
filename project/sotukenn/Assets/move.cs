@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -75,4 +75,4 @@ public class move : MonoBehaviour
     protected void ResetMoveSpeed()
     {
         MoveSpeed = defaultMoveSpeed;
-    }
+    }*/
