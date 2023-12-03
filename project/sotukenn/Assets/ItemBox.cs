@@ -1,4 +1,4 @@
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -25,15 +25,18 @@ public class ItemBox : MonoBehaviour
         boxs[2].SetActive(false);
         boxs[3].SetActive(false);
         boxs[4].SetActive(false);
+
+        
     }
 
 
         //処理
         //アイテムがクリックされた時に、そのアイテム画像をアイテムBoxに表示する
-        public void SetItem(ItemType item)
+        public void SetItem(Item.ItemType item)
     {
         int index = (int)item;
         boxs[index].SetActive(true);
+        SaveManager.instance.SetItemData(item);
 
     }
     //アイテムが使えるかどうかを調べる（アイテムBoxに存在するか調べる）
@@ -53,5 +56,6 @@ public class ItemBox : MonoBehaviour
         {
             int index = (int)item;
             boxs[index].SetActive(false);
+            SaveManager.instance.SetUseItemData(item);
         }
-}*/
+}

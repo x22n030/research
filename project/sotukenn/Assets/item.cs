@@ -1,15 +1,16 @@
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class item : MonoBehaviour
+public class Item : MonoBehaviour
 {
     //複数アイテムの実装
     //必要なアイテムを列挙する
     public enum ItemType
     {
-        key,
-        sample,
+        Leaf = 0,
+        Key = 1,
+        Sample = 2,
     }
     public ItemType item; //このアイテムが何なのか
 
@@ -19,15 +20,29 @@ public class item : MonoBehaviour
     //非表示
     //アイテムBoxへ追加
 
+    private void Start()
+    {
+        //セーブデータを確認して、すでに持っていれば消す
+        bool hasThisItem = SaveManager.instance.GetItemData(item);
+        if(hasThisItem == true)
+        {
+            gameObject.SetActive(false);
+
+            ItemBox.instance.SetItem(item);
+        }
+        
+    }
+
 
     //タイミング：クリックされたら
     public void OnThis()
     {
         //非表示
         gameObject.SetActive(false);
-        // TODO: アイテムBoxへ追加:
+        // アイテムBoxへ追加:
         ItemBox.instance.SetItem(item);
+
 
     }
 
-}*/
+}
