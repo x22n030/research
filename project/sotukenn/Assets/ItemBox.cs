@@ -24,9 +24,7 @@ public class ItemBox : MonoBehaviour
         boxs[1].SetActive(false);
         boxs[2].SetActive(false);
         boxs[3].SetActive(false);
-        boxs[4].SetActive(false);
-
-        
+        boxs[4].SetActive(false);    
     }
 
 

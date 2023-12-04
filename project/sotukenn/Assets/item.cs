@@ -8,8 +8,9 @@ public class Item : MonoBehaviour
     //必要なアイテムを列挙する
     public enum ItemType
     {
-        Leaf = 0,
-        Key = 1,
+        
+        Key = 0,
+        Map = 1,
         Sample = 2,
     }
     public ItemType item; //このアイテムが何なのか
@@ -27,22 +28,30 @@ public class Item : MonoBehaviour
         if(hasThisItem == true)
         {
             gameObject.SetActive(false);
-
             ItemBox.instance.SetItem(item);
         }
-        
     }
 
+    public void Get()
+    {
+
+        //enterキーを入力すると
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            //非表示
+            gameObject.SetActive(false);
+            // アイテムBoxへ追加:
+            ItemBox.instance.SetItem(item);
+        }
+    }
 
     //タイミング：クリックされたら
-    public void OnThis()
+    /*public void OnThis()
     {
         //非表示
         gameObject.SetActive(false);
         // アイテムBoxへ追加:
         ItemBox.instance.SetItem(item);
-
-
-    }
+    }*/
 
 }
