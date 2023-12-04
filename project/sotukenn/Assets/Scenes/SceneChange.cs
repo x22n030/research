@@ -14,9 +14,9 @@ public class SceneChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("S"))
+        if (Input.GetKeyDown(KeyCode.Return))
         {
-            SceneManager.LoadScene("Scene_Game", LoadSceneMode.Single);
+            SceneManager.LoadScene("demo", LoadSceneMode.Single);
         }
     }
 }
